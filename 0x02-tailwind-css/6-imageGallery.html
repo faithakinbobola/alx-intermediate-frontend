@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid and Flexbox Layout</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+            <style>
+        @media (max-width: 768px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="p-4">
+    <header class="bg-blue-500 text-white p-4">
+        <h1 class="text-3xl">Grid and Flexbox Layout</h1>
+    </header>
+
+    <main class="grid grid-cols-1 lg:grid-cols-3 gap-3 mt-4 min-h-screen">
+        <section class="lg:col-span-2 flex">
+            <div class="p-4 bg-red-200 w-1/2">Flexbox Item 1</div>
+            <div class="p-4 bg-red-400 w-1/2">Flexbox Item 2</div>
+        </section>
+        <aside class="bg-green-200 p-4">Sidebar</aside>
+    </main>
+    <section class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <img src="src/image/andraz-lazic-iy_MT2ifklc-unsplash.jpg" alt="Sushi Image" class="w-full lg:h-80">
+        <img src="src/image/ayesha-firdaus-c3esWyvW3E4-unsplash.jpg" alt="Served Macaroni " class="w-full lg:h-80">
+        <img src="src/image/enis-yavuz-Uy8pvJZS2es-unsplash.jpg" alt="Plated Fruit" class="w-full lg:h-80">
+        <img src="src/image/lily-banse--YHSwy6uqvk-unsplash.jpg" alt="Beef Platter" class="w-full lg:h-80">
+        <img src="src/image/thomas-tucker-MNtag_eXMKw-unsplash.jpg" alt="Pizza Image" class="w-full lg:h-80">
+        <img src="src/image/yu-jinyang-6DCnXJJbYfA-unsplash.jpg" alt="Fresh Fruit Platter" class="w-full lg:h-80">
+        <img src="./src/image/enis-yavuz-Uy8pvJZS2es-unsplash (1).jpg" alt="Plated Fruit" class="w-full lg:h-80">
+    </section>
+
+    <footer class="bg-gray-800 text-white p-4 mt-4">
+        <p>&copy; 2024 John Doe's Blog</p>
+    </footer>
+</body>
+</html>

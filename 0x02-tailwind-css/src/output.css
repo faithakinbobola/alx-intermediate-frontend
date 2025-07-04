@@ -570,6 +570,10 @@ video {
   display: grid;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -584,6 +588,10 @@ video {
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .grid-cols-3 {
@@ -749,6 +757,10 @@ video {
 
   .lg\:grid {
     display: grid;
+  }
+
+  .lg\:h-80 {
+    height: 20rem;
   }
 
   .lg\:grid-cols-3 {
