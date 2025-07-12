@@ -1,3 +1,14 @@
-I created a new directory (0x03-sass_scss)
-I created a new file (0-installtion-script)
-I ran this command in the terminal: npm install sass -v 3.4.4
+## Step 1: Install SASS globally
+mkdir 0x03-sass_scss
+cd 0x03-sass_scss
+
+## Step 2: Install SASS globally
+npm install -g sass
+
+## Step 3: Verify SASS installation
+sass --version
+
+## Step 4: Create this installation script file
+# Create file: 0-installation-script
+# Document the installation process
+
